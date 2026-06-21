@@ -1,0 +1,29 @@
+{
+    "$schema": "https://www.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "bunx --bun vite"
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.2.4",
+        "autoprefixer": "^10.5.0",
+        "axios": "^1.15.1",
+        "concurrently": "^9.2.1",
+        "echarts": "^6.0.0",
+        "laravel-vite-plugin": "^3.0.1",
+        "tailwindcss": "^4.2.4",
+        "vite": "^8.0.9"
+    },
+    "optionalDependencies": {
+        "@rollup/rollup-linux-x64-gnu": "4.60.2",
+        "@tailwindcss/oxide-linux-x64-gnu": "^4.2.4",
+        "lightningcss-linux-x64-gnu": "^1.32.0"
+    },
+    "devDependencies": {
+        "prettier": "^3.8.3",
+        "prettier-plugin-blade": "^3.1.5",
+        "prettier-plugin-tailwindcss": "^0.7.2"
+    }
+}
